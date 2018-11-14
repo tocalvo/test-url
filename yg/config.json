@@ -1,0 +1,80 @@
+{
+    "currentBrandAXPrefix": "Yoigo",
+    "analyticsSectionsGTM": [
+        {
+        "urlRegExp":"((tarifas-moviles/(tarifas-roaming|llamadas-internacionales|bonos-internet))|tarifas-moviles|tarifas-tarjeta|fibra-optica|tarifas|solo-internet)(/?)$",
+        "name": "Tarifas"
+        },
+        {
+        "urlRegExp":"((tarifas-moviles/(tarifas-roaming|llamadas-internacionales|bonos-internet))|tarifas-moviles|tarifas-tarjeta|fibra-optica|tarifas|solo-internet)(/.+)",
+        "name": "Detalle Tarifa"
+        },
+        {
+        "urlRegExp": "telefonos-moviles(\/?)$",
+        "name": "Tienda Moviles"
+        },
+        {
+        "urlRegExp": "telefonos-moviles(\/.+)",
+        "name": "Detalle Movil"
+        },
+        {
+        "urlRegExp": "ofertas-yoigo(\/?.*)",
+        "name": "Ofertas"
+        },
+        {
+        "urlRegExp": "comparador-telefonia-internet(\/?.*)",
+        "name": "Configurador"
+        },
+        {
+        "urlRegExp": "portabilidad(\/?.*)",
+        "pageType": "Checkout",
+        "name": "Portabilidad"
+        },
+        {
+        "urlRegExp": "cobertura-fibra-optica(\/?.*)",
+        "name": "Cobertura"
+        },
+        {
+        "urlRegExp": "checkout-v2\/fmc",
+        "pageType": "Checkout",
+        "name": "Checkout FMC"
+        },
+        {
+        "urlRegExp": "checkout-v2\/postpaid",
+        "pageType": "Checkout",
+        "name": "Checkout Postpaid"
+        },
+        {
+        "urlRegExp": "checkout-v2",
+        "name": "Checkout"
+        },
+        {
+        "urlRegExp": "\/",
+        "name": "Home"
+        }
+    ],
+    "analyticsSiteTypeGTM": [
+        {
+            "urlRegExp": "empresas\\.yoigo\\.com",
+            "name": "SME"
+        },
+        {
+        "urlRegExp": "negocios",
+        "name": "SOHO"
+        },
+        {
+        "urlRegExp": ".*",
+        "name": ""
+        }
+    ],
+    "analyticsVisitTypeGTM": [
+        {
+        "urlRegExp": "((tarifas-moviles/(tarifas-roaming|llamadas-internacionales|bonos-internet))|tarifas-moviles|tarifas-tarjeta|fibra-optica|tarifas|solo-internet|telefonos-moviles|ofertas-yoigo|comparador-telefonia-internet|cobertura-fibra-optica)($|/$|/.+$)",
+        "name": "Commercial"
+        },
+        {
+        "urlRegExp": ".*",
+        "name": ""
+        }
+    ]
+}
